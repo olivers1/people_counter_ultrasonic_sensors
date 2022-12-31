@@ -16,30 +16,30 @@ class Sensor2Status(Enum):
     NO_TRIGG = 0
     TRIGG = 1
 
-class TriggFirstSensor(Enum):
-    NO_TRIGG = 0
+class FirstSensorTriggSts(Enum):
+    UNKNOWN = 0
     SENSOR_1 = 1
     SENSOR_2 = 2        
 
-class TriggSecondSensor(Enum):
-    NO_TRIGG = 0
+class SecondSensorTriggSts(Enum):
+    UNKNOWN = 0
     SENSOR_1 = 1
     SENSOR_2 = 2
 
-class UntriggFirstSensor(Enum):
-    NO_TRIGG = 0
+class FirstSensorUntriggSts(Enum):
+    UNKNOWN = 0
     SENSOR_1 = 1
     SENSOR_2 = 2
         
-class UntriggSecondSensor(Enum):
-    NO_TRIGG = 0
+class SecondSensorUntriggSts(Enum):
+    UNKNOWN = 0
     SENSOR_1 = 1
     SENSOR_2 = 2
 
-class CapturedMotionPattern(Enum):
-    NO_PATTERN = 0
-    EXITING = 1
-    ENTERING = 2
+class ScenarioDetected(Enum):
+    NO_SCENARIO = 0
+    EXIT = 1
+    ENTER = 2
 
 
 class UltrasonicSensor:
